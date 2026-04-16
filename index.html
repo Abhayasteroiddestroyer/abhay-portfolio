@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Chauhan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Abhay</h2>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div>
+            <button onclick="toggleDarkMode()">🌙</button>
+            <span class="menu-btn" onclick="toggleMenu()">☰</span>
+        </div>
+    </nav>
+</header>
+
+<section id="home" class="section">
+    <img src="profile.jpg" class="profile-img">
+    <h1>Hello, I'm Abhay Chauhan</h1>
+    <p>B.Tech CSE Student | 1st Year</p>
+    <p>Manav Rachna College</p>
+</section>
+
+<section id="about" class="section fade">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science student interested in web development,
+        data analytics, and problem-solving. Currently learning HTML, CSS, JS.
+    </p>
+</section>
+
+<section id="skills" class="section fade">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>C</span>
+        <span>SQL</span>
+    </div>
+</section>
+
+<section id="projects" class="section fade">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive personal portfolio using HTML, CSS, JS.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Sorting Visualizer</h3>
+        <p>Visualizes sorting algorithms like bubble & selection sort.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="section fade">
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com</p>
+    <p>GitHub: github.com/yourusername</p>
+</section>
+
+<footer>
+    <p>© 2026 Abhay Chauhan</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
